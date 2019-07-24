@@ -1,6 +1,6 @@
 {
   "name": "koa-required-decorator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check Koa Context parameters exist or not.",
   "main": "lib/index.js",
   "scripts": {
