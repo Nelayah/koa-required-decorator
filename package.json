@@ -1,0 +1,41 @@
+{
+  "name": "koa-required-decorator",
+  "version": "0.0.1",
+  "description": "Check Koa Context parameters exist or not.",
+  "main": "lib/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest --config .jest.js --runInBand",
+    "version": "standard-version -- --release-as"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nelayah/koa-required-decorator.git"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "hayalen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/ramda": "^0.26.18",
+    "@types/superagent": "^4.1.3",
+    "cz-conventional-changelog": "^2.1.0",
+    "jest": "latest",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "ramda": "latest",
+    "standard-version": "^4.4.0",
+    "superagent": "^5.1.0",
+    "ts-jest": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
